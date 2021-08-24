@@ -18,7 +18,7 @@ class QLabelDemo(QWidget):
         label1.setText("<font color = yellow> This is a Label")
         label1.setAutoFillBackground(True)
         patette = QPalette()
-        patette.setColor(QPalette.Window, Qt.blue)
+        patette.setColor(QPalette.Window, Qt.blue)#设置背景色
         label1.setPalette(patette)
         label1.setAlignment(Qt.AlignCenter)
 
